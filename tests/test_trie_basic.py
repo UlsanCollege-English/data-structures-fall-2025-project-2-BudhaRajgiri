@@ -1,4 +1,7 @@
 # tests/test_trie_basic.py
+import sys, pathlib
+sys.path.append(str(pathlib.Path(__file__).resolve().parents[1] / "src"))
+
 from src.trie import Trie
 from pathlib import Path
 from src.io_utils import load_csv
